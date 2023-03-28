@@ -9,6 +9,13 @@ public class Funciones {
 		super();
 		
 	}
+	/**
+	 * Constructor de funciones de la biblioteca
+	 * @param titulo titulo del libro
+	 * @param autor autor del libro
+	 * @param numEjemplares cantidad de ejemplares del libro que hay
+	 * @param prestados libros prestados
+	 */
 	public Funciones(String titulo, String autor, int numEjemplares, int prestados) {
 		super();
 		this.titulo = titulo;
@@ -18,7 +25,7 @@ public class Funciones {
 	}
 	/**
 	 * Clase para gestionar los préstamos 
-	 * @return 
+	 * @return Devuelve true si hay ejemplares disponibles para prestar, false en caso contrario
 	 */
 	boolean prestamo() {
 		boolean estado = false;

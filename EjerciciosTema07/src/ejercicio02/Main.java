@@ -9,6 +9,8 @@ public class Main {
 		Funciones libro2 = new Funciones("1984", "George Orwell", 10, 1);
 		Funciones libro3 = new Funciones("1984", "George Orwell", 10, 1);
 		Funciones libro4 = new Funciones("1984", "George Orwell", 10, 1);
+		
+		System.out.println(libro1);
 		  
 	}
 
